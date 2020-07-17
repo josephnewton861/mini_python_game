@@ -35,8 +35,8 @@ ball.shape("square")
 ball.color("white")
 ball.penup()
 ball.goto(0, 0)
-ball.dx = 2
-ball.dy = -2
+ball.dx = 3
+ball.dy = -3
 
 # Pen
 pen = turtle.Turtle()
@@ -81,8 +81,11 @@ wn.onkey(paddle_b_up, "Up")
 wn.onkey(paddle_b_down, "Down")
 
 
+game = True
+
+
 # Main game loop
-while True:
+while game:
     wn.update()
 
     # Move the ball
@@ -120,6 +123,20 @@ while True:
     if (ball.xcor() < -340 and ball.xcor() > -350) and (ball.ycor() < paddle_a.ycor() + 40 and ball.ycor() > paddle_a.ycor() - 40):
         ball.setx(-340)
         ball.dx *= -1
+
+    if score_a == 5:
+        pen.clear()
+        pen.write("Player 1 wins!", align="center", font=("Courier", 24, "normal"))
+        pen.goto(0, 150)
+        turtle.done() 
+        # score_a = 0
+    
+    elif score_b == 5:
+        pen.clear()
+        pen.write("Player 2 wins!", align="center", font=("Courier", 24, "normal"))
+        pen.goto(0, 150)
+        turtle.done() 
+    #    score_b = 0
 
 
 
