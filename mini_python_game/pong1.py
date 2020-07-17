@@ -129,14 +129,12 @@ while game:
         pen.write("Player 1 wins!", align="center", font=("Courier", 24, "normal"))
         pen.goto(0, 150)
         turtle.done() 
-        # score_a = 0
     
     elif score_b == 5:
         pen.clear()
         pen.write("Player 2 wins!", align="center", font=("Courier", 24, "normal"))
         pen.goto(0, 150)
         turtle.done() 
-    #    score_b = 0
 
 
 
