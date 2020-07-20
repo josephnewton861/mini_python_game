@@ -1,4 +1,4 @@
-# Pong (first python project)
+# Pong 
 
 ## This project is my first using python and involves using pythons built in Turtle module. 
 
