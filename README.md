@@ -2,7 +2,7 @@
 
 ## This project is my first using python and involves using pythons built in Turtle module. 
 
-### Fell free to observe the source code and to clone the repository and to access the game run the command python mini-python-game/pong1.py in the terminal to access the game. 
+### Fell free to observe the source code and to clone the repository and to access the game run the command python mini-python-game/pong1.py in the terminal after cloning.
 
 ## Game rules:
 
