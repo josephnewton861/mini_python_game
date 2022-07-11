@@ -1,4 +1,5 @@
 import turtle
+import time
 
 wn = turtle.Screen()
 wn.title("Pong_first_python_project")
@@ -89,6 +90,7 @@ while game:
     wn.update()
 
     # Move the ball
+    time.sleep(0.015)
     ball.setx(ball.xcor() + ball.dx)
     ball.sety(ball.ycor() + ball.dy)
 
