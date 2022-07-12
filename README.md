@@ -1,7 +1,7 @@
 # Pong 
 
 ## Description
-- This project is my first using Python 2 years ago and involves using pythons built in Turtle module to creat a game of pong. 
+- This project is my first using Python 2 years ago and involves using pythons built in Turtle module to create a game of pong. 
 
 ## Setup instructions
 - Install python on your local machine. See https://www.python.org/downloads/ 
