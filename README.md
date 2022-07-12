@@ -1,7 +1,7 @@
 # Pong 
 
 ## Description
-- This project is my first using Python 2 years agon and involves using pythons built in Turtle module. 
+- This project is my first using Python 2 years ago and involves using pythons built in Turtle module. 
 
 ## Setup instructions
 - Install python on your local machine. See https://www.python.org/downloads/ 
